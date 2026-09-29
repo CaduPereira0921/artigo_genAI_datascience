@@ -1,0 +1,552 @@
+{
+ "agregado": {
+  "organizations": {
+   "media": 5344884,
+   "cv": 29.0
+  },
+  "git_pushes": {
+   "media": 146532535,
+   "cv": 37.5
+  },
+  "developers": {
+   "media": 104184022,
+   "cv": 40.8
+  },
+  "repositories": {
+   "media": 256447651,
+   "cv": 35.9
+  },
+  "n_trimestres": 25
+ },
+ "economias_20trim": 165,
+ "painel_principal": {
+  "n": 3411,
+  "economias": 165
+ },
+ "descritivas": {
+  "organizations_growth": {
+   "media": 19.82,
+   "dp": 9.91,
+   "assim": 1.62,
+   "curtose": 12.88
+  },
+  "git_pushes_growth": {
+   "media": 41.53,
+   "dp": 56.95,
+   "assim": 2.35,
+   "curtose": 8.31
+  }
+ },
+ "tabela1": {
+  "n": 3411,
+  "pearson": {
+   "organizations_growth": {
+    "organizations_growth": 1.0,
+    "git_pushes_growth": 0.209,
+    "developers_growth": 0.394,
+    "repositories_growth": 0.445
+   },
+   "git_pushes_growth": {
+    "organizations_growth": 0.209,
+    "git_pushes_growth": 1.0,
+    "developers_growth": 0.531,
+    "repositories_growth": 0.502
+   },
+   "developers_growth": {
+    "organizations_growth": 0.394,
+    "git_pushes_growth": 0.531,
+    "developers_growth": 1.0,
+    "repositories_growth": 0.751
+   },
+   "repositories_growth": {
+    "organizations_growth": 0.445,
+    "git_pushes_growth": 0.502,
+    "developers_growth": 0.751,
+    "repositories_growth": 1.0
+   }
+  },
+  "spearman": {
+   "organizations_growth": {
+    "organizations_growth": 1.0,
+    "git_pushes_growth": 0.191,
+    "developers_growth": 0.312,
+    "repositories_growth": 0.304
+   },
+   "git_pushes_growth": {
+    "organizations_growth": 0.191,
+    "git_pushes_growth": 1.0,
+    "developers_growth": 0.526,
+    "repositories_growth": 0.468
+   },
+   "developers_growth": {
+    "organizations_growth": 0.312,
+    "git_pushes_growth": 0.526,
+    "developers_growth": 1.0,
+    "repositories_growth": 0.835
+   },
+   "repositories_growth": {
+    "organizations_growth": 0.304,
+    "git_pushes_growth": 0.468,
+    "developers_growth": 0.835,
+    "repositories_growth": 1.0
+   }
+  }
+ },
+ "corr_principal": {
+  "pearson": [
+   0.2085,
+   0.0
+  ],
+  "spearman": [
+   0.191,
+   0.0
+  ]
+ },
+ "fe_contemporaneo": {
+  "beta": 0.0324,
+  "se": 0.0111,
+  "p": 0.0034,
+  "n": 3411,
+  "economias": 165,
+  "r2_within": 0.0445,
+  "f_pool": 18.75,
+  "p_pool": 1.1102230246251565e-16
+ },
+ "poolability": {
+  "stat": 18.755,
+  "p": 1.1102230246251565e-16
+ },
+ "fe_defasado": {
+  "beta": 0.0353,
+  "se": 0.0121,
+  "p": 0.0036,
+  "n": 3228,
+  "economias": 165,
+  "r2_within": 0.0485,
+  "f_pool": 17.1,
+  "p_pool": 1.1102230246251565e-16
+ },
+ "eras": {
+  "pre": {
+   "beta": 0.0172,
+   "se": 0.0074,
+   "p": 0.0211,
+   "n": 3411,
+   "economias": 165,
+   "r2_within": 0.031,
+   "f_pool": 18.93,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "pos": {
+   "beta": 0.0378,
+   "se": 0.0185,
+   "p": 0.0407,
+   "n": 3411,
+   "economias": 165,
+   "r2_within": 0.031,
+   "f_pool": 18.93,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "agentes": {
+   "beta": 0.0468,
+   "se": 0.014,
+   "p": 0.0009,
+   "n": 3411,
+   "economias": 165,
+   "r2_within": 0.031,
+   "f_pool": 18.93,
+   "p_pool": 1.1102230246251565e-16
+  }
+ },
+ "wald": {
+  "agentes_vs_pre": {
+   "chi2": 4.713,
+   "p": 0.0299
+  },
+  "pos_vs_pre": {
+   "chi2": 1.903,
+   "p": 0.1678
+  },
+  "agentes_vs_pos": {
+   "chi2": 0.216,
+   "p": 0.6422
+  },
+  "conjunto_2gl": {
+   "chi2": 6.057,
+   "p": 0.0484
+  }
+ },
+ "sensibilidade_corte": {
+  "2024Q4": {
+   "loglik": -11331.7,
+   "beta_agentes": 0.0506
+  },
+  "2025Q1": {
+   "loglik": -11332.8,
+   "beta_agentes": 0.049
+  },
+  "2025Q2": {
+   "loglik": -11333.9,
+   "beta_agentes": 0.0468
+  },
+  "2025Q3": {
+   "loglik": -11334.4,
+   "beta_agentes": 0.0457
+  },
+  "2025Q4": {
+   "loglik": -11334.9,
+   "beta_agentes": 0.0427
+  }
+ },
+ "medias_era": {
+  "organizations_growth": {
+   "agentes": 21.01,
+   "pos": 18.65,
+   "pre": 20.85
+  },
+  "git_pushes_growth": {
+   "agentes": 78.44,
+   "pos": 25.01,
+   "pre": 44.09
+  }
+ },
+ "ttest_org_pre_vs_agentes": {
+  "t": -0.326,
+  "p": 0.7441
+ },
+ "ttest_push_pre_vs_agentes": {
+  "t": -11.736,
+  "p": 0.0
+ },
+ "hausman": {
+  "git_pushes_growth": {
+   "n": 3411,
+   "economias": 165,
+   "beta_fe": 0.0324,
+   "se_fe_cluster": 0.0108,
+   "p_fe_cluster": 0.0027,
+   "beta_re": 0.0329,
+   "se_re_cluster": 0.0107,
+   "p_re_cluster": 0.0021,
+   "theta_media": 0.777,
+   "hausman": 2.139,
+   "gl": 1,
+   "p_hausman": 0.1436
+  },
+  "developers_growth": {
+   "n": 3418,
+   "economias": 165,
+   "beta_fe": 0.4138,
+   "se_fe_cluster": 0.0977,
+   "p_fe_cluster": 0.0,
+   "beta_re": 0.4045,
+   "se_re_cluster": 0.0904,
+   "p_re_cluster": 0.0,
+   "theta_media": 0.773,
+   "hausman": 2.961,
+   "gl": 1,
+   "p_hausman": 0.0853
+  },
+  "repositories_growth": {
+   "n": 3418,
+   "economias": 165,
+   "beta_fe": 0.3243,
+   "se_fe_cluster": 0.0518,
+   "p_fe_cluster": 0.0,
+   "beta_re": 0.3193,
+   "se_re_cluster": 0.05,
+   "p_re_cluster": 0.0,
+   "theta_media": 0.79,
+   "hausman": 6.041,
+   "gl": 1,
+   "p_hausman": 0.014
+  }
+ },
+ "topicos_lista": [
+  "agent",
+  "agent-skills",
+  "agentic-ai",
+  "agents",
+  "ai",
+  "ai-agent",
+  "ai-agents",
+  "ai-tools",
+  "artificial-intelligence",
+  "chatbot",
+  "chatgpt",
+  "claude",
+  "claude-code",
+  "codex",
+  "gemini",
+  "gemini-api",
+  "generative-ai",
+  "github-copilot",
+  "langchain",
+  "large-language-models",
+  "llm",
+  "llms",
+  "mcp",
+  "mcp-server",
+  "model-context-protocol",
+  "multi-agent",
+  "ollama",
+  "openai",
+  "openclaw",
+  "rag",
+  "vibe-coding"
+ ],
+ "topicos_economias": [
+  "BR",
+  "CA",
+  "CN",
+  "DE",
+  "ES",
+  "FR",
+  "GB",
+  "HK",
+  "IN",
+  "IT",
+  "JP",
+  "PL",
+  "SG",
+  "US"
+ ],
+ "robustez": {
+  "ai_topic_engagement_growth|contemporanea": {
+   "beta": 0.0097,
+   "se": 0.0041,
+   "p": 0.0197,
+   "n": 151,
+   "economias": 14,
+   "r2_within": -0.0159,
+   "f_pool": 27.35,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "ai_topic_engagement_growth|defasada": {
+   "beta": 0.007,
+   "se": 0.0042,
+   "p": 0.1014,
+   "n": 138,
+   "economias": 14,
+   "r2_within": 0.0222,
+   "f_pool": 15.1,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "ai_topic_max_growth|contemporanea": {
+   "beta": 0.0202,
+   "se": 0.0104,
+   "p": 0.0536,
+   "n": 156,
+   "economias": 14,
+   "r2_within": -0.0021,
+   "f_pool": 25.29,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "ai_topic_max_growth|defasada": {
+   "beta": 0.0134,
+   "se": 0.0124,
+   "p": 0.2818,
+   "n": 139,
+   "economias": 14,
+   "r2_within": 0.0326,
+   "f_pool": 14.56,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "languages_growth|contemporanea": {
+   "beta": 0.081,
+   "se": 0.0304,
+   "p": 0.0077,
+   "n": 2935,
+   "economias": 141,
+   "r2_within": 0.1268,
+   "f_pool": 24.81,
+   "p_pool": 1.1102230246251565e-16
+  },
+  "languages_growth|defasada": {
+   "beta": 0.0794,
+   "se": 0.0264,
+   "p": 0.0026,
+   "n": 2792,
+   "economias": 141,
+   "r2_within": 0.1318,
+   "f_pool": 22.11,
+   "p_pool": 1.1102230246251565e-16
+  }
+ },
+ "brasil": {
+  "n": 21,
+  "org_vs_tech": {
+   "r": 0.529,
+   "p": 0.0136,
+   "p_hac": 0.0034
+  },
+  "push_vs_tech": {
+   "r": 0.315,
+   "p": 0.1643,
+   "rho": 0.413,
+   "p_rho": 0.0628,
+   "p_hac": 0.0738
+  },
+  "push_vs_solo": {
+   "r": -0.109,
+   "p": 0.6392
+  },
+  "era_amostra21": {
+   "tech_growth": {
+    "agentes": 23.82,
+    "pos": 7.02,
+    "pre": 32.65
+   },
+   "git_pushes_growth": {
+    "agentes": 49.56,
+    "pos": 14.2,
+    "pre": 35.6
+   },
+   "share_solo": {
+    "agentes": 80.62,
+    "pos": 80.85,
+    "pre": 81.16
+   }
+  },
+  "share_solo_geral_era": {
+   "agentes": 93.7,
+   "pos": 93.0,
+   "pre": 93.1
+  }
+ },
+ "tabela5": {
+  "n": 22,
+  "medias": {
+   "Tecnologia da informação": {
+    "agentes": 24.61,
+    "pos": 7.02,
+    "pre": 32.65
+   },
+   "Marketing e conteúdo": {
+    "agentes": 15.14,
+    "pos": 7.72,
+    "pre": 18.5
+   },
+   "Serviços profissionais": {
+    "agentes": 15.13,
+    "pos": 10.62,
+    "pre": 21.0
+   },
+   "Educação": {
+    "agentes": 8.72,
+    "pos": 8.02,
+    "pre": 27.45
+   },
+   "Comércio (controle)": {
+    "agentes": 8.17,
+    "pos": -0.12,
+    "pre": 7.19
+   },
+   "Construção civil (controle)": {
+    "agentes": 8.07,
+    "pos": 4.04,
+    "pre": 9.46
+   }
+  }
+ },
+ "clusters_corr_niveis": {
+  "Tecnologia da informação": {
+   "Tecnologia da informação": 1.0,
+   "Marketing e conteúdo": 0.93,
+   "Serviços profissionais": 0.88,
+   "Educação": 0.87,
+   "Comércio (controle)": 0.89,
+   "Construção civil (controle)": 0.89
+  },
+  "Marketing e conteúdo": {
+   "Tecnologia da informação": 0.93,
+   "Marketing e conteúdo": 1.0,
+   "Serviços profissionais": 0.97,
+   "Educação": 0.88,
+   "Comércio (controle)": 0.97,
+   "Construção civil (controle)": 0.94
+  },
+  "Serviços profissionais": {
+   "Tecnologia da informação": 0.88,
+   "Marketing e conteúdo": 0.97,
+   "Serviços profissionais": 1.0,
+   "Educação": 0.88,
+   "Comércio (controle)": 0.93,
+   "Construção civil (controle)": 0.89
+  },
+  "Educação": {
+   "Tecnologia da informação": 0.87,
+   "Marketing e conteúdo": 0.88,
+   "Serviços profissionais": 0.88,
+   "Educação": 1.0,
+   "Comércio (controle)": 0.76,
+   "Construção civil (controle)": 0.84
+  },
+  "Comércio (controle)": {
+   "Tecnologia da informação": 0.89,
+   "Marketing e conteúdo": 0.97,
+   "Serviços profissionais": 0.93,
+   "Educação": 0.76,
+   "Comércio (controle)": 1.0,
+   "Construção civil (controle)": 0.93
+  },
+  "Construção civil (controle)": {
+   "Tecnologia da informação": 0.89,
+   "Marketing e conteúdo": 0.94,
+   "Serviços profissionais": 0.89,
+   "Educação": 0.84,
+   "Comércio (controle)": 0.93,
+   "Construção civil (controle)": 1.0
+  }
+ },
+ "clusters_corr_diff": {
+  "Tecnologia da informação": {
+   "Tecnologia da informação": 1.0,
+   "Marketing e conteúdo": 0.94,
+   "Serviços profissionais": 0.95,
+   "Educação": 0.93,
+   "Comércio (controle)": 0.84,
+   "Construção civil (controle)": 0.82
+  },
+  "Marketing e conteúdo": {
+   "Tecnologia da informação": 0.94,
+   "Marketing e conteúdo": 1.0,
+   "Serviços profissionais": 0.97,
+   "Educação": 0.93,
+   "Comércio (controle)": 0.95,
+   "Construção civil (controle)": 0.92
+  },
+  "Serviços profissionais": {
+   "Tecnologia da informação": 0.95,
+   "Marketing e conteúdo": 0.97,
+   "Serviços profissionais": 1.0,
+   "Educação": 0.93,
+   "Comércio (controle)": 0.93,
+   "Construção civil (controle)": 0.87
+  },
+  "Educação": {
+   "Tecnologia da informação": 0.93,
+   "Marketing e conteúdo": 0.93,
+   "Serviços profissionais": 0.93,
+   "Educação": 1.0,
+   "Comércio (controle)": 0.81,
+   "Construção civil (controle)": 0.89
+  },
+  "Comércio (controle)": {
+   "Tecnologia da informação": 0.84,
+   "Marketing e conteúdo": 0.95,
+   "Serviços profissionais": 0.93,
+   "Educação": 0.81,
+   "Comércio (controle)": 1.0,
+   "Construção civil (controle)": 0.91
+  },
+  "Construção civil (controle)": {
+   "Tecnologia da informação": 0.82,
+   "Marketing e conteúdo": 0.92,
+   "Serviços profissionais": 0.87,
+   "Educação": 0.89,
+   "Comércio (controle)": 0.91,
+   "Construção civil (controle)": 1.0
+  }
+ }
+}
